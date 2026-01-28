@@ -1,0 +1,25 @@
+{
+  "name": "my-meditation-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://<你的用戶名>.github.io/<倉庫名稱>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.x",
+    "lucide-react": "^0.x",
+    "react": "^18.x",
+    "react-dom": "^18.x"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.x",
+    "vite": "^7.2.4"
+  }
+}
